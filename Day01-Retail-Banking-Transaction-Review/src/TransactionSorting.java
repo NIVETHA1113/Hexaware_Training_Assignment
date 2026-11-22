@@ -16,7 +16,7 @@ public class TransactionSorting {
         ArrayList<Transaction> transactions = new ArrayList<>();
 
         try (BufferedReader reader =
-                 new BufferedReader(new FileReader("data/transactions.csv"))) {
+                 new BufferedReader(new FileReader("Day01-Retail-Banking-Transaction-Review/data/transactions.csv"))) {
 
             String line;
 

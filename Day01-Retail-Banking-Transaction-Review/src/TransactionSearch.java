@@ -16,7 +16,7 @@ public class TransactionSearch {
         ArrayList<Long> ids = new ArrayList<>();
 
         try (BufferedReader reader =
-                 new BufferedReader(new FileReader("data/transactions.csv"))) {
+                 new BufferedReader(new FileReader("Day01-Retail-Banking-Transaction-Review/data/transactions.csv"))) {
 
             String line;
 
